@@ -19,3 +19,5 @@ if (launchReady) {
 } else {
    console.log("Launch scrubbed.");
 }
+
+// console was spelt wrong in line 17, edited
