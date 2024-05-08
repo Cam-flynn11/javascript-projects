@@ -1,35 +1,37 @@
-//Arrays can hold different data types, even other arrays! A multi-dimensional array is one with entries that are themselves arrays.
+// //Arrays can hold different data types, even other arrays! A multi-dimensional array is one with entries that are themselves arrays.
 
-//1) Define and initialize the arrays specified in the exercise to hold the name, chemical symbol and mass for different elements.
-let element1 = ['hydrogen', 'H', 1.008];
-let element2 = ['helium', 'He', 4.003];
-let element26 = ['iron', 'Fe', 55.85];
-//2) Define the array 'table', and use 'push' to add each of the element arrays to it. Print 'table' to see its structure.
-let table = [];
-console.log(table.push(element1));
-console.log(table.push(element2));
-console.log(table.push(element26));
-console.log(table)
-//3) Use bracket notation to examine the difference between printing 'table' with one index vs. two indices (table[][]).
-console.log(table[0]);
-console.log(table[0][2]);
-//4) Using bracket notation and the table array, print the mass of element1, the name for element 2 and the symbol for element26.
-console.log(table[0][2]);
-console.log(table[1][0]);
-console.log(table[2][1]);
+// //1) Define and initialize the arrays specified in the exercise to hold the name, chemical symbol and mass for different elements.
+// let element1 = ['hydrogen', 'H', 1.008];
+// let element2 = ['helium', 'He', 4.003];
+// let element26 = ['iron', 'Fe', 55.85];
+// //2) Define the array 'table', and use 'push' to add each of the element arrays to it. Print 'table' to see its structure.
+// let table = [];
+// console.log(table.push(element1));
+// console.log(table.push(element2));
+// console.log(table.push(element26));
+// console.log(table)
+// //3) Use bracket notation to examine the difference between printing 'table' with one index vs. two indices (table[][]).
+// console.log(table[0]);
+// console.log(table[0][2]);
+// //4) Using bracket notation and the table array, print the mass of element1, the name for element 2 and the symbol for element26.
+// console.log(table[0][2]);
+// console.log(table[1][0]);
+// console.log(table[2][1]);
 
 //5) 'table' is an example of a 2-dimensional array. The first “level” contains the element arrays, and the second level holds the name/symbol/mass values. Experiment! Create a 3-dimensional array and print out one entry from each level in the array.
 let waterIntake = ['dehydrated', 8, 'race horse'];
-let animal = ['possum', 'dog', 'giraffe'];
-let hour = ['11 pm', '12:22', 1700];
+let animal = ['possum', 'dog', 'giraffes'];
+let adjective = ['lazy', 'wild', 'cold'];
 
 let tableTwo = [];
 console.log(tableTwo.push(waterIntake));
 console.log(tableTwo.push(animal));
-console.log(tableTwo.push(hour));
+console.log(tableTwo.push(adjective));
 console.log(tableTwo);
 
 // first level
 console.log(tableTwo[0]);
 // second level
 console.log(tableTwo[1][2]);
+// for funsies 
+console.log(`${tableTwo[2][1]} ${tableTwo[0][0]} ${tableTwo[1][2]} are heading right for us - RUN!`);
