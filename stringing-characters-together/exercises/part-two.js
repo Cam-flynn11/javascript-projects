@@ -47,4 +47,4 @@ console.log(`The DNA strand is ${dna.length} characters long.`);
 //5) Just for fun, apply methods to ``dna`` and use another template literal to print, 'taco cat'.
 let firstName = (dnaTwo.slice(12,15).toLowerCase() + 'o ');
 let lastName = (dnaTwo.slice(40,43).toLowerCase());
-console.log(`${firstName}${lastName} - meow`);
+console.log(`${firstName}${lastName} - meow`); 

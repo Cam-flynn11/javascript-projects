@@ -11,3 +11,8 @@ if (fuelLevel >= 20000) {
    console.log('WARNING: Insufficient fuel!');
    launchReady = false;
 }
+
+let jsCreator = "Brendan Eich";
+
+console.log(jsCreator[-1]);
+console.log(jsCreator[42]);

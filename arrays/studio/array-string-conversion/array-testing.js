@@ -4,7 +4,7 @@ let protoArray3 = "space delimited string";
 let protoArray4 = "Comma-spaces, might, require, typing, caution";
 
 strings = [protoArray1, protoArray2, protoArray3, protoArray4];
-
+console.log(protoArray1.includes(","));
 //2) 
 function reverseCommas() {
 	//TODO: 1. create and instantiate your variables.

@@ -33,5 +33,5 @@ console.log(tableTwo);
 console.log(tableTwo[0]);
 // second level
 console.log(tableTwo[1][2]);
-// for funsies 
+// template literal for funsies 
 console.log(`${tableTwo[2][1]} ${tableTwo[0][0]} ${tableTwo[1][2]} are heading right for us - RUN!`);

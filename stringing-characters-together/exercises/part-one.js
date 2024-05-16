@@ -7,7 +7,7 @@ let num = 1001;
 // console.log(String(num));
 // console.log(typeof String(num));
 //Follow up: Print the number of digits in a DECIMAL value (e.g. num = 123.45 has 5 digits but a length of 6).
-let num2 = (String(12345));
+let num2 = (String(123.45));
 // console.log(num2.length);
 
 console.log(String(num2.length-1));
