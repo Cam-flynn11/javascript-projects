@@ -4,17 +4,17 @@
     c. Print the EVEN numbers 12 to -14 in descending order, one number per line.
     d. Challenge - Print the numbers 50 - 20 in descending order, but only if the numbers are multiples of 3. (Your code should work even if you replace 50 or 20 with other numbers). */
 // a 
-// for(let i = 0; i < 21; i++) {
-//  console.log(i);
-// }
-// // b 
-//  for(let i = 3; i < 30; i += 3) {
-//    console.log(i);
-// }
-// // c
-// for(let i = 12; i > -15; i -= 2) {
-//   console.log(i);
-// }
+for(let i = 0; i < 21; i++) {
+ console.log(i);
+}
+// b 
+ for(let i = 3; i < 30; i += 3) {
+   console.log(i);
+}
+// c
+for(let i = 12; i > -15; i -= 2) {
+  console.log(i);
+}
 // d
 
 
@@ -25,17 +25,17 @@ Initialize two variables to hold the string “LaunchCode” and the array [1, 5
 Construct ``for`` loops to accomplish the following tasks:
   a. Print each element of the array to a new line.
   b. Print each character of the string - in reverse order - to a new line. */ 
-// let j = "LaunchCode";
-// let k = [1, 5, 'LC101', 'blue', 42];
-// let reversed = "";
-// for(let i = 0; i < k.length; i++) {
-//   console.log(k[i]);
-// }
+let j = "LaunchCode";
+let k = [1, 5, 'LC101', 'blue', 42];
+let reversed = "";
+for(let i = 0; i < k.length; i++) {
+  console.log(k[i]);
+}
 
-// for(let m = 0; m < j.length; m++) {
-// reversed = j[m] + reversed;
-//   console.log(reversed);
-// }
+for(let m = 0; m < j.length; m++) {
+reversed = j[m] + reversed;
+  console.log(reversed);
+}
 
 
 
