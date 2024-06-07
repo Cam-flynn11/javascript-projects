@@ -24,8 +24,8 @@ function selectRandomEntry(idNumbers){
 };
 
 // Code your oxygenExpended function here:
-function oxygenExpended(candidate) {
-let hours = missionDuration(distance, orbitalSpeedkmhr);
+function oxygenExpended(candidate, distance, orbitalSpeed) {
+let hours = missionDuration(distance, orbitalSpeed);
 let o2Used = Math.round(candidate.o2Used(hours) * 1000) / 1000;
 return `${candidate.name} will perform the spacewalk, which will last ${hours} and require ${o2Used} kg of exygen.`;
 }
@@ -76,4 +76,4 @@ let candidateA = {
  };
  
  let crew = [candidateA,candidateC,candidateE];
- console.log(oxygenExpended(selectRandomEntry(crew)));
+ console.log(oxygenExpended(selectRandomEntry(crew), distance, orbitalSpeedkmhr));
