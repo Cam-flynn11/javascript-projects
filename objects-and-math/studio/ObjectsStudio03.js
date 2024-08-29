@@ -1,5 +1,9 @@
 // Code your crewMass function here:
+function crewMass() {
+  
+}
 
+// 9.5 kg of fuel = 1 kg lifted in LEO
 
 // Code your fuelRequired function here:
 

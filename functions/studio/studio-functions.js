@@ -9,11 +9,16 @@
 // 5. Use console.log(reverseCharacters(myVariableName)); to call the function and verify that it correctly reverses the characters in the string.
 // 6. Optional: Use method chaining to reduce the lines of code within the function.
 let sampleStr = 'apple, LC101, Capitalized Letters, I love the smell of code in the morning.';
+let sampleNum = (1234, 'LC101', 8675309, 'radar');
 
 function reverseCharacters(sampleStr) {
     sampleStr = sampleStr.split('').reverse().join('');
-    
-    return sampleStr
+    if(typeof reverseCharacters === 'String') {
+        return sampleStr
+    }
+    else if(typeof reverseCharacters === 'Number') {
+        
+    }
 }
 let newSampleStr = '';
 console.log(reverseCharacters(sampleStr))
@@ -24,7 +29,6 @@ console.log(reverseCharacters(sampleStr))
 // 3. If typeof is ’number’, convert the parameter to a string, reverse the characters, then convert it back into a number.
 // 4. Return the reversed number.
 // 5. Be sure to print the result returned by the function to verify that your code works for both strings and numbers. Do this before moving on to the next exercise.
-let sampleNum = (1234, 'LC101', 8675309, 'radar');
 reverseCharacters(sampleNum); {
     sampleNum = sampleNum.split('').reverse().join('')
     if(reverseCharacters === String) {

@@ -66,7 +66,7 @@ let crew = [superChimpOne, salamander, superChimpTwo, dog, mossPiglet];
 console.log(crew)
 
 function crewReports() {
-   // let randomNum = Math.floor(Math.random() * 11)
+   
    for(index = 0; index < crew[index].length; index++) {
    }
    return crew[index].length
